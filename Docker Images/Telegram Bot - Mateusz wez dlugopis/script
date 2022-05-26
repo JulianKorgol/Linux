@@ -1,0 +1,4 @@
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id":$chat_id,"text":"Wiadomość"}' \
+     https://api.telegram.org/bot$bot_token/sendMessage
